@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 80.795 s <<< FAILURE! - in TestSuite
+immi(OrangeHR.Project.ImmigrationFN)  Time elapsed: 38.022 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space" data-v-10d463b7="">...</button> is not clickable at point (1145, 535). Other element would receive the click: <div class="oxd-calendar-date">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bef3f4ac3a5cf5ef377e7cdd7a32a6b4, clickElement {id=f.121F8CD85DD134DB4562965534A39140.d.64F2703280D3FB98C3836DCC532A9F03.e.115}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ashwi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63950/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bef3f4ac3a5cf5ef377e7cdd7a32a6b4)] -> xpath: //button[@type='submit']]
+Session ID: bef3f4ac3a5cf5ef377e7cdd7a32a6b4
+	at OrangeHR.Project.ImmigrationFN.immi(ImmigrationFN.java:68)
+
+immi(OrangeHR.Project.Upload)  Time elapsed: 18.829 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" class="oxd-button oxd-button--medium oxd-button--text" data-v-10d463b7="" data-v-3dab643a="">...</button> is not clickable at point (860, 15). Other element would receive the click: <div class="oxd-topbar-header-title" data-v-f0c5131f="">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d54e95f301cfabee051031e89e15b2d, clickElement {id=f.5A1B739E040EF4632A78D8FC2A381C02.d.158AD4CDC419B5D01F5D9F45210F156C.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ashwi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63980/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5d54e95f301cfabee051031e89e15b2d)] -> xpath: (//button[@class="oxd-button oxd-button--medium oxd-button--text"])[1]]
+Session ID: 5d54e95f301cfabee051031e89e15b2d
+

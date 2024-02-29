@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T18:13:35 IST" name="Default suite" finished-at="2024-02-29T18:14:19 IST" duration-ms="43415">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T18:13:35 IST" name="Default test" finished-at="2024-02-29T18:14:19 IST" duration-ms="43415">
+      <class name="OrangeHR.Project.JobDetails">
+        <test-method signature="logintest()[pri:0, instance:OrangeHR.Project.JobDetails@6253c26]" started-at="2024-02-29T18:13:35 IST" name="logintest" finished-at="2024-02-29T18:14:16 IST" duration-ms="40330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="jobs()[pri:0, instance:OrangeHR.Project.JobDetails@6253c26]" started-at="2024-02-29T18:14:16 IST" name="jobs" finished-at="2024-02-29T18:14:19 IST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobs -->
+      </class> <!-- OrangeHR.Project.JobDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
